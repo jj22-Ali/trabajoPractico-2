@@ -1,16 +1,21 @@
 alert("ejercicio 3");
 
-let cadenaDeTexto = [];
+let fraseCompleta = "";
 
-while(true){
+do{
 
-    cadenaDeTexto = prompt("Ingrese cualquier texto: ");
-    cadenaDeTexto.push(cadenaDeTexto);
+    let primerFrase = prompt("Ingrese una frase: ");
 
-    const confirmacion = confirm("¿Quieres seguir agregando más texto?");
+    if(fraseCompleta.length === 0){
 
-    if (confirmacion === false){
-        break;
+        fraseCompleta += primerFrase;
+
+    }else {
+        
+        fraseCompleta += "-" + primerFrase;
     }
 
-}
+
+}while(confirm("¿Quierer ingresar otra frase?"));
+
+document.write("La frase completa es:" + fraseCompleta);
