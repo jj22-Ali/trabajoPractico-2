@@ -20,6 +20,12 @@ if(nota >= 0 && nota <= 2){
                 } else {
                     if (nota === 10){
                         alert("nota: Sobresaliente");
+                    } else {
+                        if ( nota < 0 || nota > 10){
+                            alert("Número erróneo");
+                        } else {
+                            alert("Introduzca un número válido")
+                        }
                     }
                 }
             }
