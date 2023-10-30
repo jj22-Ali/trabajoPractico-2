@@ -9,4 +9,4 @@ do{
 
 }while(confirm("¿desde agregar más numeros?"));
 
-document.write("la cantidad acumulada es de: " + acum);
+document.write("<br> la cantidad acumulada es de: " + acum);

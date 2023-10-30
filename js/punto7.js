@@ -1,7 +1,6 @@
-alert("Ejercicio 7")
+alert("Ejercicio 7");
 
 let numeroPiramide;
-let i,j;
 
 do{
 
@@ -30,7 +29,7 @@ do{
     
     }
 
-}while(confirm("¿Quieres intentarlo otra vez?"))
+}while(confirm("¿Quieres intentarlo otra vez?"));
 
 
 

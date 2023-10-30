@@ -1,6 +1,5 @@
 alert("ejercicio 9");
 
-let i,j;
 
 for(i = 1 ; i <= 500; i++){
 
