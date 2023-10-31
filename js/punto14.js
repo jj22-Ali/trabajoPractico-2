@@ -1,9 +1,9 @@
 alert("Ejercicio 14")
 
-let texto = prompt("Ingrese una cadena de texto: ");
+ texto = prompt("Ingrese una cadena de texto: ");
 
 let textoConguiones = " ";
-let i;
+ i;
 
 for(i = 0 ; i <= texto.length; i++){
 
